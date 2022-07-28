@@ -1,0 +1,13 @@
+"Stagliano, D.M., and Whiles, M.R. (2002). Macroinvertebrate Production and Trophic Structure in a Tallgrass Prairie Headwater Stream. Journal of the North American Benthological Society. 21, pp. 97-113.",,,,,,,
+Tallgrass prairie headwater stream - Kings Creek - Kansas - USA,Filterers,Scrapers,Gatherers,Shredders,Crayfish,Invertebrate predators,Vertebrate predators (fish)
+FPOM,0,0,1,0,0,0,0
+CPOM,0,0,0,1,0,0,0
+SPOM,1,0,0,0,0,0,0
+Wood,0,0,0,1,0,0,0
+Primary production,0,1,0,0,0,0,0
+Filterers,0,0,0,0,1,1,1
+Scrapers,0,0,0,0,1,1,1
+Gatherers,0,0,0,0,1,1,1
+Shredders,0,0,0,0,1,1,1
+Crayfish,0,0,0,0,0,0,1
+Invertebrate predators,0,0,0,0,0,0,1

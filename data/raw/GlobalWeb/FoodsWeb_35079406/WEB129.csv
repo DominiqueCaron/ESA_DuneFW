@@ -1,0 +1,12 @@
+"Unpublished observations. C. Morley, Personal communication (1981) A.W. King and S. Pimm (1983). Source: ECOWeB1.1",,,,,,,,,,,,
+Soil community,fungi,bacteria,Actinomycetes,nematode p,Mycorrhyzae,nematode f,protozoa,predatory bacteria,nematode b,macroarthropod f,macroarthropods,nematode n
+plants,1,1,1,1,-1,0,0,0,0,0,0,0
+fungi,0,0,0,0,0,1,0,0,0,1,0,0
+bacteria,0,0,0,0,0,0,1,1,1,0,0,0
+Actinomycetes,0,0,0,0,0,0,0,0,0,-1,0,0
+nematode p,0,0,0,0,0,0,0,0,0,0,1,1
+Mycorrhyzae,0,0,0,0,0,-1,0,0,0,1,0,0
+nematode f,0,0,0,0,0,0,0,0,0,0,1,1
+predatory bacteria,0,0,0,0,0,0,1,0,1,0,0,0
+nematode b,0,0,0,0,0,0,0,0,0,0,1,1
+nematode n,0,0,0,0,0,0,0,0,0,0,1,0

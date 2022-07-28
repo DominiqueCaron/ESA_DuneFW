@@ -1,0 +1,17 @@
+"Pattie, D. L. and Verbeek, N. A. M. (1966) Alpine birds of the Beartooth Mountains, Condor 68:167-176 (1966); Alpine mammals of the Beartooth Mountains, Northwest Sci. 41(3):110-117 (1967). ",,,,,,,,,,,,,,,,,,,,,,,,,
+Alpine tundra - Montana,pocket gopher,marmot,bighorn sheep - wapiti - mule deer,jack rabbit,pika,voles (4 species),chipmunk,mantled ground squirrel,invertebrates,Diptera - Hymenoptera - Hemiptera - Coleoptera,deer mouse,shrews (3 species),Black Rosy finch,water pipits - horned larks,badger,marten,wolverine,Golden eagle,grizzly bear,weasels (2 species),hawks and owls (7 species),coyote,bobcat,red fox,prairie falcon
+alpine vegetation,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+pocket gopher,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,0
+marmot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,1,1,0,1,0
+bighorn sheep - wapiti - mule deer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+jack rabbit,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+pika,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0
+voles (4 species),0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0
+chipmunk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0
+mantled ground squirrel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,1,1,1,0
+invertebrates,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diptera - Hymenoptera - Hemiptera - Coleoptera,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+deer mouse,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0
+shrews (3 species),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Black Rosy finch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+water pipits - horned larks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1

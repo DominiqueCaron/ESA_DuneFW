@@ -1,0 +1,60 @@
+"Kelleway, J., Mazumder, D., Wilson, G.G., Saintilan, N., Knowles, L., Iles, J., and Kobayashi, T. (2010). Trophic structure of benthic resources and consumers varies across a regulated floodplain wetland. Marine and Freshwater Research. 61, pp. 430-440.",,,,,,,,,,
+"Gwydir Wetlands, northern Murray-Darling Basin of NSW - Mehi River - March 2007",Bony Bream,European Carp,Gambusia,Golden Perch,Gudgeon,Prawn,Rainbowfish,Smelt,Spangled Perch,Yabby
+UNIDENTIFIED FISH (FRAGMENT),0,0,0,0,0,1,0,0,0,0
+FISH SCALES,0,0,0,0,0,0,0,0,1,0
+FISH (ALL except EGGS),0,0,0,0,0,0,0,0,1,0
+PALAEMONIDAE (WHOLE),0,0,0,1,1,0,0,0,1,0
+PALAEMONIDAE (FRAGMENT),0,0,0,1,1,0,0,0,0,1
+PALAEMONIDAE (ALL),0,0,0,1,1,0,0,0,1,0
+MACROCRUSTACEANS (ALL),0,0,0,1,1,0,0,0,1,1
+NEMATODA,0,0,1,0,0,0,0,1,0,0
+COLEOPTERA (unidentified) (WHOLE),0,0,1,1,0,0,1,0,0,0
+COLEOPTERA (unidentified) (FRGAMENT),0,0,0,0,0,0,0,1,0,0
+COLEOPTERA (ALL),0,0,0,1,0,0,0,0,0,0
+EPHEMEROPTERA (FRAGMENT),0,0,0,0,1,0,0,1,0,0
+EPHEMEROPTERA (ALL),0,0,0,0,1,0,0,0,0,0
+HEMIPTERA (WHOLE),0,0,0,0,1,0,0,0,0,0
+HEMIPTERA (ALL),0,0,0,0,1,0,0,0,0,0
+DIPTERA: CHIRONOMIDAE (FRAGMENT),0,0,0,0,1,0,0,0,0,0
+DIPTERA ADULT (WHOLE),0,0,0,0,0,0,1,0,0,0
+DIPTERA (ALL),0,0,0,0,1,0,0,0,0,0
+UNIDENTIFIED INSECT (WHOLE),0,0,0,1,0,0,0,1,1,0
+UNIDENTIFIED INSECT (FRAGMENT),0,0,0,1,0,0,0,0,1,0
+INSECTS (ALL),0,0,0,1,1,0,0,0,1,0
+UNIDENTIFIED INVERTEBRATE (FRAGMENTS),0,0,1,0,0,1,0,1,0,0
+UNIDENTIFIED ANIMAL FRAGMENTS,0,0,0,1,0,1,0,0,0,0
+CYCLOPOID COPEPODS (WHOLE),0,0,0,0,0,0,1,0,0,0
+CYCLOPOID COPEPODITE,0,1,1,0,0,0,1,0,0,0
+CALANOID COPEPOD (Boeckella sp.),0,0,0,0,0,0,0,1,0,0
+CALANOID COPEPOD (unidentified),0,0,0,0,0,0,0,1,0,0
+CLADOCERA: Chydorus sp.,0,0,1,0,0,0,0,0,0,0
+CLADOCERA: Chydorinae (WHOLE),1,1,0,0,0,0,1,0,0,0
+CLADOCERA: Moina sp.,0,0,1,0,0,0,0,0,0,0
+CLADOCERA: Macrothrix sp. (BENTHIC),0,1,1,0,0,0,1,0,0,0
+CLADOCERA : Alona sp. (BENTHIC),0,0,1,0,0,0,0,0,0,0
+CLADOCERA: Aloninae (WHOLE),1,1,0,0,0,0,0,0,0,0
+CLADOCERA (unidentified),0,0,0,0,0,1,0,0,0,0
+ROTIFERA (Lecane bulla),1,0,0,0,0,0,0,0,0,0
+ZOOPLANKTON (ALL),1,1,1,0,0,1,1,1,0,0
+PLANT MATERIAL (WHOLE),0,0,0,0,0,0,0,0,0,1
+PLANT DETRITUS (i.e. fragments),1,1,0,0,0,1,0,0,0,1
+PLANT MATERIAL (ALL),1,1,0,0,0,1,0,0,0,1
+DIATOMS (Pinnularia sp.),0,0,0,0,0,0,0,0,0,1
+DIATOMS (Eunotia sp.),0,0,0,0,0,0,0,0,0,1
+DIATOMS (Synedra sp.),0,0,0,0,0,0,0,0,0,1
+DIATOMS (unidentified),0,0,0,0,0,0,0,0,0,1
+BENTHIC DIATOMS,1,0,0,0,0,0,0,0,0,0
+DIATOMS (ALL),1,0,0,0,0,0,0,0,0,1
+GREEN ALGAE (Scenedesmus sp.),0,0,0,0,0,0,0,0,0,1
+GREEN ALGAE (Cosmarium sp.),0,0,0,0,0,0,0,0,0,1
+GREEN ALGAE (Mougeotia sp.),0,1,0,0,0,0,0,0,0,0
+GREEN ALGAE (FILAMENTOUS) (unidentified),1,1,0,0,0,0,0,0,0,1
+GREEN ALGAE (NON-FILAMENTOUS),1,0,0,0,0,0,0,0,0,0
+DINOFLAGELLATE (Peridinium sp.),0,0,0,0,0,0,0,0,0,1
+DINOFLAGELLATE (unidentified),1,0,0,0,0,0,0,0,0,0
+ALGA FRAGMENTS (unidentified),0,0,0,0,0,0,0,0,0,1
+ALGAE (ALL),1,1,0,0,0,0,0,0,0,1
+EGGS (unidentified),0,1,0,0,0,0,0,0,0,0
+SEDIMENT,1,1,0,0,0,0,0,0,0,0
+GRAVEL,0,0,0,0,0,1,0,0,0,0
+SEDIMENT (ALL),1,0,0,0,0,0,0,0,0,0

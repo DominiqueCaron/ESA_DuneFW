@@ -1,0 +1,45 @@
+"Kelleway, J., Mazumder, D., Wilson, G.G., Saintilan, N., Knowles, L., Iles, J., and Kobayashi, T. (2010). Trophic structure of benthic resources and consumers varies across a regulated floodplain wetland. Marine and Freshwater Research. 61, pp. 430-440.",,,,,,,,
+"Gwydir Wetlands, northern Murray-Darling Basin of NSW - lower Gwydir River - March 2007",Bony Bream,European Carp,Goldfish,Gudgeon,Prawn,Rainbowfish,Spangled Perch,Yabby
+UNIDENTIFIED FISH (WHOLE),0,0,0,1,0,0,0,0
+FISH SCALES,0,0,0,0,0,0,1,0
+FISH (ALL except EGGS),0,0,0,1,0,0,1,0
+PALAEMONIDAE (WHOLE),0,0,0,0,0,0,1,0
+PALAEMONIDAE (FRAGMENT),0,0,0,0,0,0,1,1
+PALAEMONIDAE (ALL),0,0,0,0,0,0,1,0
+OSTRACODA,0,0,1,0,0,0,0,0
+MACROCRUSTACEANS (ALL),0,0,1,0,0,0,1,1
+COLEOPTERA (unidentified) (WHOLE),0,0,0,0,0,1,0,0
+CORIXIDAE (WHOLE),0,0,0,0,0,1,1,0
+CORIXIDAE (FRAGMENT),0,0,0,0,0,0,1,0
+HEMIPTERA (ALL),0,0,0,0,0,0,1,0
+DIPTERA: CHIRONOMIDAE (FRAGMENT),0,0,0,1,0,0,0,0
+DIPTERA (ALL),0,0,0,1,0,0,0,0
+UNIDENTIFIED INSECT (FRAGMENT),0,1,0,0,0,1,1,0
+INSECTS (ALL),0,0,0,0,1,0,1,0
+UNIDENTIFIED INVERTEBRATE (FRAGMENTS),0,0,0,0,1,0,0,1
+UNIDENTIFIED ANIMAL FRAGMENTS,0,0,0,0,0,0,1,1
+CYCLOPOID COPEPODS (Mesocyclops sp.),0,1,1,0,0,0,0,0
+CYCLOPOID COPEPODS (WHOLE),0,0,0,1,0,1,0,0
+CYCLOPOID COPEPODS (FRAGMENTS),0,0,0,1,0,0,0,0
+CYCLOPOID COPEPODITE,0,1,1,0,0,1,0,0
+CALANOID COPEPOD (Boeckella fluvialis),0,1,0,0,0,0,0,0
+CALANOID COPEPOD (unidentified),0,0,1,0,0,0,0,0
+CLADOCERA: Diaphanosoma (WHOLE),0,0,0,1,0,0,0,0
+CLADOCERA (unidentified),0,0,1,0,0,0,0,0
+ Simocephalus sp.,0,1,0,0,0,0,0,0
+PROTOZOA: Difflugia sp. ,0,0,1,0,0,0,0,0
+PROTOZOA: Cyphoderia sp.,0,0,1,0,0,0,0,0
+ZOOPLANKTON (ALL),0,1,1,1,0,1,0,0
+PLANT DETRITUS (i.e. fragments),1,1,1,0,1,0,0,1
+PLANT MATERIAL (ALL),1,1,0,0,1,0,0,1
+DIATOMS (Eunotia sp.),0,0,0,0,0,0,0,1
+DIATOMS (unidentified),0,0,1,0,0,0,0,0
+BENTHIC DIATOMS,1,0,0,0,0,0,0,0
+DIATOMS (ALL),1,0,1,0,0,0,0,1
+GREEN ALGAE (Cosmarium sp.),0,0,1,0,0,0,0,1
+GREEN ALGAE (FILAMENTOUS) (unidentified),0,0,1,0,0,0,0,0
+ALGA FRAGMENTS (unidentified),0,0,0,0,0,0,0,1
+ALGAE (ALL),1,0,1,0,0,0,0,1
+EGGS (unidentified),0,0,1,0,0,0,0,0
+SEDIMENT,1,1,0,0,0,0,0,0
+SEDIMENT (ALL),1,0,0,0,0,0,0,0

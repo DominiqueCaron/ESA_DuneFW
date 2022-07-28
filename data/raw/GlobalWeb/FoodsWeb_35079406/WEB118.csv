@@ -1,0 +1,14 @@
+"Blindloss, M.E., Holden, A.V., Bailey-Watts, A.E. and Smith, I.R. (1972). Phytoplankton production, chemical and physical conditions in Loch Leven. In: Z. Kajak and A. Hillbricht-Ilkowska (eds), Productivity Problems of Freshwaters, (Polish Scientific Publishers, Warsaw), pp. 639-659.",,,,,,,,,
+Loch Leven,detritus with decomposers,zooplankton,larval chironomids,Asellus (isopod) and other detritivores,trout,perch fry and adults,tufted duck and chicks,gull ,pike
+phytoplankton,1,1,1,0,0,0,0,0,0
+emergent plants,1,0,0,0,0,0,0,0,0
+submerged root plants,1,0,0,0,0,0,0,0,0
+benthic algae,1,0,0,0,0,0,0,0,0
+allocthonous material,1,0,0,0,0,0,0,0,0
+detritus with decomposers,0,0,0,1,0,0,0,0,0
+zooplankton,0,0,0,0,1,1,1,0,0
+larval chironomids,0,0,0,0,1,1,1,0,0
+Asellus (isopod) and other detritivores,0,0,0,0,1,1,1,0,0
+trout,0,0,0,0,0,0,0,0,1
+perch fry and adults,0,0,0,0,1,1,0,0,1
+tufted duck and chicks,0,0,0,0,0,0,0,1,0

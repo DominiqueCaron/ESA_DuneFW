@@ -1,0 +1,10 @@
+"G.W. Minshall. (1967). Role of Allochthonous Detritus in the Trophic Stucture of a Woodland Springbrook Community. Ecology. 48(1), pp. 139-149.",,,,,,,,,,,
+Morgan's Creek - Kentucky,Phagocata,Decapoda -- Orconectes - Cambarus,Plecoptera -- Isoperia - Isogenus,Megaloptera -- Nigronia - Sialis,Pisces -- Rhinichthys - Semotilus,Gammarus,Trichoptera -- Diplectrona - Ryhacophila,Asellus,Ephemeroptera -- Baetis - Centroptilum - Epeorus - Paraleptophlebia - Pseudocloeon,Trichoptera -- Neophylax - Glossosoma,Diptera -- Tendipedidae - Simulium
+Gammarus,1,0,0,1,1,0,0,0,0,0,0
+Trichoptera -- Diplectrona - Ryhacophila,0,0,1,1,1,1,0,0,0,0,0
+Asellus,1,0,1,1,1,1,0,0,0,0,0
+Ephemeroptera -- Baetis - Centroptilum - Epeorus - Paraleptophlebia - Pseudocloeon,0,1,1,0,0,1,1,0,0,0,0
+Trichoptera -- Neophylax - Glossosoma,0,1,1,1,0,0,0,0,0,0,0
+Diptera -- Tendipedidae - Simulium,0,1,1,0,1,1,1,0,0,0,0
+detritus,0,1,0,0,0,1,1,1,1,1,1
+diatoms,0,0,0,0,0,0,1,1,1,1,1

@@ -1,0 +1,10 @@
+"Mann, K.H. (1972). Case history:  The River Thames.  In: R. T. Oglesby, C. A. Carlson, and J. A. McCann (eds). River Ecology and Man, (Academic Press, New York and London), pp. 215-232.",,,,,,,
+River Thames - England,browsers and grazers (gastropods - crustacea - etc.),filter feeders (molluscs - sponges - plumatella),young chironomids,adult chironomids,zooplankton,invertebrate predators,fish (roach - bleak - et al.)
+periphyton and benthic detritus,1,1,0,0,0,0,1
+phytoplankton and seston,0,1,1,1,1,0,0
+terrestrial insects and allochthonous detritus,0,0,0,0,0,0,1
+browsers and grazers (gastropods - crustacea - etc.),0,0,0,0,0,-1,1
+filter feeders (molluscs - sponges - plumatella),0,0,0,0,0,0,1
+young chironomids,0,0,0,0,0,-1,1
+zooplankton,0,-1,0,0,0,0,1
+invertebrate predators,0,0,0,0,0,0,1

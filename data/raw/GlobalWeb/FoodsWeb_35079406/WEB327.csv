@@ -1,0 +1,52 @@
+"Kelleway, J., Mazumder, D., Wilson, G.G., Saintilan, N., Knowles, L., Iles, J., and Kobayashi, T. (2010). Trophic structure of benthic resources and consumers varies across a regulated floodplain wetland. Marine and Freshwater Research. 61, pp. 430-440.",,,,,,,,
+"Gwydir Wetlands, northern Murray-Darling Basin of NSW - Gingham Watercourse - March 2007",Bony Bream,Catfish,European Carp,Goldfish,Prawn,Rainbowfish,Spangled Perch,Yabby
+UNIDENTIFIED FISH (WHOLE),0,0,0,0,0,0,1,0
+UNIDENTIFIED FISH (FRAGMENT),0,0,0,0,0,0,1,0
+FISH SCALES,0,0,0,0,0,0,1,0
+FISH (ALL except EGGS),0,0,0,0,0,0,1,0
+PALAEMONIDAE (WHOLE),0,1,0,0,0,0,1,0
+PALAEMONIDAE (FRAGMENT),0,1,0,0,0,0,1,1
+PALAEMONIDAE (ALL),0,1,0,0,0,0,1,0
+Cherax destructor (WHOLE),0,1,0,0,0,0,0,0
+ISOPODA: CIROLANIDAE (WHOLE) (prawn parasite),0,1,0,0,0,0,0,0
+MACROCRUSTACEANS (ALL),0,1,0,0,0,0,1,1
+MOLLUSC : BIVALVE (FRAGMENT),0,1,0,0,0,0,0,0
+MOLLUSCS (ALL),0,1,0,0,0,0,0,0
+COLEOPTERA: SCIRTIDAE (WHOLE),0,0,0,0,0,0,1,0
+COLEOPTERA : HYDROPHILIDAE (WHOLE),0,0,0,0,0,0,1,0
+COLEOPTERA (ALL),0,0,0,0,0,0,1,0
+CORIXIDAE (WHOLE),0,0,0,0,0,0,1,0
+CORIXIDAE (FRAGMENT),0,0,0,0,0,0,1,0
+HEMIPTERA (ALL),0,0,0,0,0,0,1,0
+DIPTERA: CHIRONOMIDAE (WHOLE),0,0,0,0,0,0,1,0
+DIPTERA: CHIRONOMIDAE (FRAGMENT),0,1,0,0,0,0,1,0
+DIPTERA (ALL),0,1,0,0,0,0,1,0
+UNIDENTIFIED INSECT (WHOLE),0,0,0,0,0,0,1,0
+UNIDENTIFIED INSECT (FRAGMENT),0,0,1,0,0,0,1,0
+INSECTS (ALL),0,0,0,0,0,0,1,0
+UNIDENTIFIED INVERTEBRATE (FRAGMENTS),0,0,1,0,1,0,0,1
+UNIDENTIFIED ANIMAL FRAGMENTS,0,1,0,0,0,0,1,0
+CYCLOPOID COPEPODS (WHOLE),0,0,1,0,0,0,0,0
+CYCLOPOID COPEPODITE,0,0,1,0,0,0,0,0
+CLADOCERA: Chydorinae (WHOLE),0,0,1,0,0,0,0,0
+CLADOCERA: Aloninae (WHOLE),0,0,0,1,0,0,0,0
+CYCLOPOID COPEPOD (Eucyclops sp.),0,0,1,0,0,0,0,0
+PROTOZOA: Difflugia sp. ,0,0,0,1,0,0,0,0
+ZOOPLANKTON (ALL),0,0,1,1,0,0,0,0
+PLANT MATERIAL (WHOLE),0,0,0,0,0,0,1,0
+PLANT DETRITUS (i.e. fragments),1,1,1,1,1,1,1,1
+PLANT MATERIAL (ALL),1,1,1,1,1,1,1,1
+DIATOMS (Surirella sp.),0,0,0,0,0,1,0,0
+DIATOMS (Aulacoseira sp.),0,0,0,0,0,1,0,0
+DIATOMS (Pinnularia sp.),0,0,0,0,0,1,0,0
+DIATOMS (Eunotia sp.),0,0,0,1,0,0,0,0
+pennate DIATOMS (unidentified),0,0,1,0,0,0,0,0
+BENTHIC DIATOMS,1,0,0,0,0,0,0,0
+DIATOMS (ALL),1,0,1,1,0,1,0,0
+GREEN ALGAE (Euglena sp.),0,0,0,0,0,1,0,0
+GREEN ALGAE (FILAMENTOUS) (unidentified),1,0,0,1,1,1,1,1
+ALGAE (ALL),1,0,1,1,1,1,1,1
+EGGS (unidentified),1,0,1,1,0,0,0,0
+SEDIMENT,1,0,1,1,0,0,0,0
+GRAVEL,0,1,0,0,0,0,0,0
+SEDIMENT (ALL),1,1,0,0,0,0,0,0

@@ -1,0 +1,16 @@
+"Schroter, D., Wolters, V., and De Ruiter, P.C. (2003). C and N Mineralisation in the Decomposer Food Webs of a European Forest Transect. Oikos. 102, pp. 294-308.",,,,,,,,,,,,,,
+Decomposer food web - European coniferous forests - northern Sweden to north-east France,litter - detritus - humus,Bacteria,Fungi,fungivorous Nematoda,bacterivorous Nematoda,panphytophagous Collembola,panphytophagous Acari,panphytophagous Testate Amoebe,predaceous Testate Amoebe,Enchytraeidae,predaceous Acari,predaceous Collembola,predaceous Nematoda,omnivorous Nematoda
+litter - detritus - humus,0,1,1,0,0,1,1,1,0,1,0,0,0,1
+Bacteria,0,0,0,0,1,0,1,1,0,1,0,0,1,1
+Fungi,0,0,0,1,0,1,1,1,0,1,0,0,0,1
+fungivorous Nematoda,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+bacterivorous Nematoda,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+panphytophagous Collembola,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+panphytophagous Acari,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+panphytophagous Testate Amoebe,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+predaceous Testate Amoebe,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+Enchytraeidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+predaceous Acari,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+predaceous Collembola,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+predaceous Nematoda,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+omnivorous Nematoda,0,0,0,0,0,0,0,0,0,0,1,0,1,0

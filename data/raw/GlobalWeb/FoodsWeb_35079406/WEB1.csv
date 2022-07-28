@@ -1,0 +1,10 @@
+"Qazim, S.Z. (1970) Some problems related to the food chain in a tropical estuary. In: J.H. Steele (ed.). (1970) Marine Food Chains. (Oliver and Boyd, Edinburgh), pp. 45-51, from p. 50.",,,,,,,
+Cochin Backwater - India,prawns and shrimps,benthos (micro meio and macro),zooplankton herbivores,fish herbivores,other carnivores,fish carnivores,man
+basic food,1,1,1,1,0,0,0
+detritus,1,1,1,1,0,0,0
+prawns and shrimps,0,0,0,0,1,1,1
+benthos (micro meio and macro),0,0,0,0,1,0,0
+zooplankton herbivores,0,0,0,0,1,1,0
+fish herbivores,0,0,0,0,0,1,1
+other carnivores,0,0,0,0,0,1,0
+fish carnivores,0,0,0,0,0,0,1

@@ -1,0 +1,8 @@
+"J.L. Harrison. (1962). The Distribution of Feeding Habits Among Animals in a Tropical Rain Forest. Journal of Animal Ecology. 31(1), pp. 53-63.",,,,,,,,,
+Rain forest - Malaysia,canopy animals -- birds - fruit bats and other mammals,upper air animals -- birds and bats - insectivorous - carnivorous,insects,large ground animals -- large mammals and birds,middle zone scansorial animals -- mammals in both canopy and ground zones,middle zone flying animals -- birds and insectivorous bats,ground -- roots - fallen fruit - leaves and trunks,small ground animals -- birds and small mammals,fungi
+canopy -- leaves - fruits - flowers,1,0,1,1,0,0,0,0,0
+insects,1,1,0,0,1,1,0,1,0
+trunk - fruit - flowers,0,0,0,0,1,0,0,0,0
+middle zone scansorial animals -- mammals in both canopy and ground zones,0,0,0,0,0,-1,0,0,0
+ground -- roots - fallen fruit - leaves and trunks,0,0,1,1,0,0,0,1,1
+fungi,0,0,0,0,0,0,0,1,0

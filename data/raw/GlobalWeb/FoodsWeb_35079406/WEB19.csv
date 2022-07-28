@@ -1,0 +1,14 @@
+"Brooks, J.L. and Deevey, E.S. (1963). New England, In: D. G. Frey, (ed). Limnology in North America. (University of Wisconsin Press, Madison, Wisconsin, USA), pp. 117-162. ",,,,,,,,,,,,,,,
+Moosehead Lake - Maine,zooplankton,chironomids,littoral browsers,Chaoborus,Leptodora,Osmerus,Catostomus,Gasterosteus,cyprinids,Cottus,Prosopium,Salmo,Salvelinus,Lota,Cristivomer
+phytoplankton,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+ooze - bacteria,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+zooplankton,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0
+chironomids,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0
+littoral browsers,0,0,0,0,0,0,0,1,1,1,1,0,1,1,0
+Leptodora,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Osmerus,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+Catostomus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Gasterosteus,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+cyprinids,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+Cottus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Salvelinus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1

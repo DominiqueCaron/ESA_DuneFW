@@ -1,0 +1,25 @@
+"V.S. Summerhayes and C.S. Elton. (1923). Bear Island. Journal of Ecology. 11(2), pp. 216-233.",,,,,,,,,,,,,,,,,,,,,,
+Bear Island - Spitsbergen,protozoa (fresh water plankton),worms,geese,snow bunting - ptarmigan,purple sandpiper,protozoa (fresh water bottom and littoral),Hymenoptera,mites,Diptera (adult),Collembola,spiders,protozoa (land),Entomostraca - Rotifera (fresh water plankton),skua -glaucous gull,kittiwake - guillemots - fulmar petrel - little auk - puffin,northern eider - long-tailed duck - red -throated diver,arctic fox,seals,polar bear,Diptera (immature),Entomostraca - Rotifera - Tardigrada - Oligochaeta - Nematoda (fresh water bottom and littoral),Lepidurus
+bacteria,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
+protozoa (fresh water plankton),0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,-1
+plants - dead plants,0,-1,1,1,-1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0
+algae (fresh water bottom and littoral),0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+algae (fresh water plankton),1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,-1
+snow bunting - ptarmigan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+purple sandpiper,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+protozoa (fresh water bottom and littoral),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Hymenoptera,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mites,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Diptera (adult),0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Collembola,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+moss,0,0,1,0,0,0,0,0,0,0,0,0,0,-2,-2,0,0,0,0,-1,-1,-1
+spiders,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Entomostraca - Rotifera (fresh water plankton),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1
+skua -glaucous gull,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kittiwake - guillemots - fulmar petrel - little auk - puffin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+northern eider - long-tailed duck - red -throated diver,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+marine animals,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+seals,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Diptera (immature),0,0,0,1,-1,0,0,0,-1,0,1,0,0,1,0,1,0,0,0,0,0,0
+Entomostraca - Rotifera - Tardigrada - Oligochaeta - Nematoda (fresh water bottom and littoral),0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+Lepidurus,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
