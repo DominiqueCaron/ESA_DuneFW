@@ -1,11 +1,15 @@
 library(dplyr)
+library(tidyr)
 library(ggplot2)
 library(igraph)
 library(NetIndices)
 
+earth_color <- "#3576AE"
+dune_color <- "#E9CB8E"
+
 DuneFW <- read.csv("data/output/DuneFWpredictions.csv", row.names = 1)
 
-n_draws <- 100 # number of fw in global web
+n_draws <- 1000 # number of fw in global web
 col_names <- c("size", "links", "connectance","meanTL", "maxTL","pl_exp", paste0("motif", c(1:13)))
 duneFW_stats <- matrix(NA, nrow = n_draws, ncol = 19, dimnames = list(c(1:n_draws), col_names)) %>% as.data.frame()
 
@@ -30,46 +34,101 @@ globalWeb_stats <- read.csv("data/output/GlobalWebStructure.csv", row.names = 1)
   drop_na()
 globalWeb_stats$logSize <- log10(globalWeb_stats$size)
 globalWeb_stats$logLinks <- log10(globalWeb_stats$links)
+globalWeb_stats$logConnectance <- log10(globalWeb_stats$connectance)
+
+# Get quantiles for dune stats
+quantiles <- c(0.01,0.05,0.25,0.5,0.75,0.95,0.99)
+duneFW_summary <- apply(duneFW_stats, 2, quantile, quantiles) %>% t() %>% as.data.frame()
+
+duneFW_summary$metric <- rownames(duneFW_summary)
 
 # links-species relationship?
 m <- lm(logLinks ~ logSize, data = globalWeb_stats)
+mpi <- cbind(globalWeb_stats, predict(m, interval = "prediction"))
 
+
+ggplot() +
+  geom_point(aes(x = logSize, y = logLinks), data = globalWeb_stats, alpha = 0.3, color = earth_color) +
+  geom_smooth(aes(x = logSize, y = logLinks), data = globalWeb_stats, method = "lm", se = F, color = earth_color) +
+  geom_pointrange(aes(x = log10(8), y = log10(get("50%")), ymin = log10(get("5%")), ymax = log10(get("95%"))), data = duneFW_summary["links",],color = dune_color, size = 0.75) +
+  geom_ribbon(aes(x = logSize, y = logLinks, ymin = lwr, ymax = upr), data = mpi,
+              fill = "transparent", color = earth_color, linetype = "dashed") +
+  theme_classic() +
+  labs(y = "log10(# of links)", x = "log10(# of species)")
+
+ggsave("figures/links.png", width =6, height = 6)
+
+# connectance relationship?
+m <- lm(logConnectance ~ logSize, data = globalWeb_stats)
 mpi <- cbind(globalWeb_stats, predict(m, interval = "prediction"))
 
 ggplot() +
-  geom_point(aes(x = logSize, y = logLinks), data = globalWeb_stats, alpha = 0.3) +
-  geom_smooth(aes(x = logSize, y = logLinks), data = globalWeb_stats, method = "lm") +
-  geom_ribbon(aes(x = logSize, y = logLinks, ymin = lwr, ymax = upr), data = mpi,
-              fill = "blue", alpha = 0.2) +
-  geom_point(aes(x = log10(size), y = log10(links)), data = duneFW_stats, alpha = 0.7, size = 2,color = "gold")
+  geom_point(aes(x = logSize, y = logConnectance), data = globalWeb_stats, alpha = 0.3, color = earth_color) +
+  geom_smooth(aes(x = logSize, y = logConnectance), data = globalWeb_stats, method = "lm", se = F, color = earth_color) +
+  geom_pointrange(aes(x = log10(8), y = log10(get("50%")), ymin = log10(get("5%")), ymax = log10(get("95%"))), data = duneFW_summary["connectance",],color = dune_color, size = 0.75) +
+  geom_ribbon(aes(x = logSize, y = logConnectance, ymin = lwr, ymax = upr), data = mpi,
+              fill = "transparent", color = earth_color, linetype = "dashed") +
+  theme_classic() +
+  labs(y = "log10(connectance)", x = "log10(# of species)")
 
-# connectance relationship?
-ggplot() +
-  geom_point(aes(x = logSize, y = connectance), data = globalWeb_stats, alpha = 0.3) +
-  geom_smooth(aes(x = logSize, y = connectance), data = globalWeb_stats, method = "loess", fill = "orange") +
-  geom_point(aes(x = log10(size), y = connectance), data = duneFW_stats, alpha = 0.7, size = 2,color = "gold")
+ggsave("figures/connectance.png", width =6, height = 6)
 
-# trophic level
-globalWeb_stats <- filter(globalWeb_stats, meanTL < 10)
+# mean trophic level
+globalWeb_stats_tl <- filter(globalWeb_stats, meanTL < 10)
+m <- lm(meanTL ~ logSize, data = globalWeb_stats_tl)
+mpi <- cbind(globalWeb_stats_tl, predict(m, interval = "prediction"))
+
 ggplot() +
-  geom_point(aes(x = logSize, y = meanTL), data = globalWeb_stats, alpha = 0.3) +
-  geom_smooth(aes(x = logSize, y = meanTL), data = globalWeb_stats, method = "loess", fill = "orange") +
-  geom_point(aes(x = log10(size), y = meanTL), data = duneFW_stats, alpha = 0.7, size = 2,color = "gold")
+  geom_point(aes(x = logSize, y = meanTL), data = globalWeb_stats_tl, alpha = 0.3, color = earth_color) +
+  geom_smooth(aes(x = logSize, y = meanTL), data = globalWeb_stats_tl, method = "lm", se = F, color = earth_color) +
+  geom_pointrange(aes(x = log10(8), y = get("50%"), ymin = get("5%"), ymax = get("95%")), data = duneFW_summary["meanTL",],color = dune_color, size = 0.75) +
+  geom_ribbon(aes(x = logSize, y = meanTL, ymin = lwr, ymax = upr), data = mpi,
+              fill = "transparent", color = earth_color, linetype = "dashed") +
+  lims(y=c(0,6)) +
+  theme_classic() +
+  labs(y = "Mean trophic level", x = "log10(# of species)")
+
+ggsave("figures/meanTL.png", width =6, height = 6)
+
+# max trophic level
+m <- lm(maxTL ~ logSize, data = globalWeb_stats_tl)
+mpi <- cbind(globalWeb_stats_tl, predict(m, interval = "prediction"))
+
+ggplot() +
+  geom_point(aes(x = logSize, y = maxTL), data = globalWeb_stats_tl, alpha = 0.3, color = earth_color) +
+  geom_smooth(aes(x = logSize, y = maxTL), data = globalWeb_stats_tl, method = "lm", se = F, color = earth_color) +
+  geom_pointrange(aes(x = log10(8), y = get("50%"), ymin = get("5%"), ymax = get("95%")), data = duneFW_summary["maxTL",],color = dune_color, size = 0.75) +
+  geom_ribbon(aes(x = logSize, y = maxTL, ymin = lwr, ymax = upr), data = mpi,
+              fill = "transparent", color = earth_color, linetype = "dashed") +
+  lims(y=c(0,8)) +
+  theme_classic() +
+  labs(y = "Max trophic level", x = "log10(# of species)")
+
+ggsave("figures/meanTL.png", width =6, height = 6)
 
 # power - law exponent
 ggplot() +
-  geom_point(aes(x = logSize, y = pl_exp), data = globalWeb_stats, alpha = 0.3) +
-  geom_smooth(aes(x = logSize, y = pl_exp), data = globalWeb_stats, method = "loess", fill = "orange") +
-  geom_point(aes(x = log10(size), y = pl_exp), data = duneFW_stats, alpha = 0.7, size = 2,color = "gold")
+  geom_point(aes(x = logSize, y = pl_exp), data = globalWeb_stats, alpha = 0.3, color = earth_color) +
+  geom_smooth(aes(x = logSize, y = pl_exp), data = globalWeb_stats, method = "loess", fill = earth_color, color = earth_color) +
+  geom_pointrange(aes(x = log10(8), y = get("50%"), ymin = get("5%"), ymax = get("95%")), data = duneFW_summary["pl_exp",],color = dune_color, size = 0.75) +
+  theme_classic() +
+  labs(y = "alpha", x = "log10(# of species)")
+
+ggsave("figures/pl_exponent.png", width = 6, height = 6)
 
 # motifs frequency
 dune_motifs <- dplyr::select(duneFW_stats, starts_with("motif")) %>%
   pivot_longer(everything(), names_to = "motif", values_to = "frequency") %>%
-  mutate(fw = "dune")
+  mutate(fw = "dune", motif = factor(motif, levels = paste0("motif", c(1:13))))
 
 global_motifs <- dplyr::select(globalWeb_stats, starts_with("motif")) %>%
   pivot_longer(everything(), names_to = "motif", values_to = "frequency") %>%
-  mutate(fw = "earth")
+  mutate(fw = "earth", motif = factor(motif, levels = paste0("motif", c(1:13))))
 
-ggplot(aes(x = motif, y = frequency, colour = fw), data = rbind(dune_motifs, global_motifs)) +
-  geom_boxplot()
+ggplot(aes(x = motif, y = frequency, fill = fw), color = "black", data = rbind(dune_motifs, global_motifs)) +
+  geom_boxplot() +
+  scale_fill_manual(values = c(dune_color, earth_color)) +
+  theme_classic() +
+  labs(x = "Motif", y = "Relative frequency")
+
+ggsave("figures/motifs.png", width = 6, height = 6)

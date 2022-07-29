@@ -1,6 +1,6 @@
 library(dplyr)
 library(tidyr)
-library(fread)
+library(data.table)
 library(igraph)
 library(NetIndices)
 

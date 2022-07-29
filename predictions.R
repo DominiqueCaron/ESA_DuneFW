@@ -72,6 +72,6 @@ DuneFWscaled[,var2scale] <- sweep(DuneFWscaled[,var2scale], MARGIN = 2, FUN = "/
 
 # Make predictions --------------------------------------------------------
 DuneFWpredictions <- make_predictions(EuropeModel, newdata = DuneFWscaled, 
-                                     allow_new_levels = TRUE, ndraws = 100, extrapolation = T)
+                                     allow_new_levels = TRUE, ndraws = 1000, extrapolation = T)
 
 write.csv(DuneFWpredictions, "data/output/DuneFWpredictions.csv")
