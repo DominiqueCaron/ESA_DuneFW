@@ -4,8 +4,9 @@ library(ggplot2)
 library(igraph)
 library(NetIndices)
 
-earth_color <- "#3576AE"
-dune_color <- "#E9CB8E"
+earth_color <- "#f3ecdf"
+dune_color <- "#ec8c14"
+background_color <- "#537479"
 
 DuneFW <- read.csv("data/output/DuneFWpredictions.csv", row.names = 1)
 
@@ -50,11 +51,16 @@ mpi <- cbind(globalWeb_stats, predict(m, interval = "prediction"))
 ggplot() +
   geom_point(aes(x = logSize, y = logLinks), data = globalWeb_stats, alpha = 0.3, color = earth_color) +
   geom_smooth(aes(x = logSize, y = logLinks), data = globalWeb_stats, method = "lm", se = F, color = earth_color) +
-  geom_pointrange(aes(x = log10(8), y = log10(get("50%")), ymin = log10(get("5%")), ymax = log10(get("95%"))), data = duneFW_summary["links",],color = dune_color, size = 0.75) +
+  geom_pointrange(aes(x = log10(8), y = log10(get("50%")), ymin = log10(get("5%")), ymax = log10(get("95%"))), data = duneFW_summary["links",],color = dune_color, size = 1.25, fatten = 2) +
   geom_ribbon(aes(x = logSize, y = logLinks, ymin = lwr, ymax = upr), data = mpi,
               fill = "transparent", color = earth_color, linetype = "dashed") +
   theme_classic() +
-  labs(y = "log10(# of links)", x = "log10(# of species)")
+  labs(y = "", x = "") +
+  theme(plot.background = element_rect(fill = background_color, colour = background_color),
+        panel.background = element_rect(fill = background_color, colour = background_color),
+        axis.text = element_text(size = 15, colour = earth_color),
+        axis.line = element_line(colour = earth_color),
+        axis.ticks = element_line(colour = earth_color))
 
 ggsave("figures/links.png", width =6, height = 6)
 
@@ -112,7 +118,12 @@ ggplot() +
   geom_smooth(aes(x = logSize, y = pl_exp), data = globalWeb_stats, method = "loess", fill = earth_color, color = earth_color) +
   geom_pointrange(aes(x = log10(8), y = get("50%"), ymin = get("5%"), ymax = get("95%")), data = duneFW_summary["pl_exp",],color = dune_color, size = 0.75) +
   theme_classic() +
-  labs(y = "alpha", x = "log10(# of species)")
+  labs(y = "", x = "") +
+  theme(plot.background = element_rect(fill = background_color, colour = background_color),
+        panel.background = element_rect(fill = background_color, colour = background_color),
+        axis.text = element_text(size = 15, colour = earth_color),
+        axis.line = element_line(colour = earth_color),
+        axis.ticks = element_line(colour = earth_color))
 
 ggsave("figures/pl_exponent.png", width = 6, height = 6)
 
@@ -125,10 +136,19 @@ global_motifs <- dplyr::select(globalWeb_stats, starts_with("motif")) %>%
   pivot_longer(everything(), names_to = "motif", values_to = "frequency") %>%
   mutate(fw = "earth", motif = factor(motif, levels = paste0("motif", c(1:13))))
 
-ggplot(aes(x = motif, y = frequency, fill = fw), color = "black", data = rbind(dune_motifs, global_motifs)) +
+plot_data = rbind(global_motifs, dune_motifs) %>%
+  mutate(fw = factor(fw, levels = c("earth", "dune")))
+
+ggplot(aes(x = motif, y = frequency, fill = fw), color = "black", data = plot_data) +
   geom_boxplot() +
-  scale_fill_manual(values = c(dune_color, earth_color)) +
+  scale_fill_manual(values = c(earth_color, dune_color)) +
   theme_classic() +
-  labs(x = "Motif", y = "Relative frequency")
+  labs(x = "", y = "") +
+  theme(plot.background = element_rect(fill = background_color, colour = background_color),
+        panel.background = element_rect(fill = background_color, colour = background_color),
+        axis.text = element_text(size = 15, colour = earth_color),
+        axis.line = element_line(colour = earth_color),
+        axis.ticks = element_line(colour = earth_color), 
+        legend.position = "non")
 
 ggsave("figures/motifs.png", width = 6, height = 6)
