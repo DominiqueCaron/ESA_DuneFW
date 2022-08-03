@@ -148,7 +148,11 @@ ggplot(aes(x = motif, y = frequency, fill = fw), color = "black", data = plot_da
         panel.background = element_rect(fill = background_color, colour = background_color),
         axis.text = element_text(size = 15, colour = earth_color),
         axis.line = element_line(colour = earth_color),
-        axis.ticks = element_line(colour = earth_color), 
-        legend.position = "non")
+        axis.ticks = element_line(colour = earth_color),
+        legend.background = element_blank(),
+        legend.text = element_blank(),
+        legend.title = element_blank(),
+        legend.position = c(0.7,0.7),
+        legend.key.size = unit(30, "pt"))
 
-ggsave("figures/motifs.png", width = 6, height = 6)
+ggsave("figures/motifs.png", width = 10, height = 4)
