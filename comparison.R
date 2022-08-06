@@ -49,16 +49,16 @@ mpi <- cbind(globalWeb_stats, predict(m, interval = "prediction"))
 
 
 ggplot() +
-  geom_point(aes(x = logSize, y = logLinks), data = globalWeb_stats, alpha = 0.3, color = earth_color) +
-  geom_smooth(aes(x = logSize, y = logLinks), data = globalWeb_stats, method = "lm", se = F, color = earth_color) +
+  geom_point(aes(x = logSize, y = logLinks), data = globalWeb_stats, alpha = 0.3, color = earth_color, size = 2) +
+  geom_smooth(aes(x = logSize, y = logLinks), data = globalWeb_stats, method = "lm", se = F, color = earth_color, size = 2) +
   geom_pointrange(aes(x = log10(8), y = log10(get("50%")), ymin = log10(get("5%")), ymax = log10(get("95%"))), data = duneFW_summary["links",],color = dune_color, size = 1.25, fatten = 2) +
   geom_ribbon(aes(x = logSize, y = logLinks, ymin = lwr, ymax = upr), data = mpi,
-              fill = "transparent", color = earth_color, linetype = "dashed") +
+              fill = "transparent", color = earth_color, linetype = "dashed", size = 1.25) +
   theme_classic() +
   labs(y = "", x = "") +
   theme(plot.background = element_rect(fill = background_color, colour = background_color),
         panel.background = element_rect(fill = background_color, colour = background_color),
-        axis.text = element_text(size = 15, colour = earth_color),
+        axis.text = element_text(size = 18, colour = earth_color),
         axis.line = element_line(colour = earth_color),
         axis.ticks = element_line(colour = earth_color))
 
